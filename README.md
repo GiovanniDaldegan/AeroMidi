@@ -22,4 +22,6 @@ O instrumento consiste em uma caixa com 8 botões, cada um correspondente a uma 
 O arduino é responsável por detectar a intensidade do sopro no microfone e qual tecla está sendo pressionada. Com essas medições, ele envia mensagens MIDI pela porta USB determinando a intensidade e a frequência da nota tocada. O sinal enviado chega a um computador que estiver executando o programa "atom" para escutar as mensagens MIDI e o Csound para sintetizar o som.
 
 ## Síntese sonora
-A sonoridade do instrumento, sintetizada pela linguagem Csound, tenta imitar os harmônicos produzidos por uma ocarina. Utilizando geração de ruído, síntese subtrativa e ondas senoidais, o programa produz sons na frequência base da tecla e nos 2º, 3º, 5º e 7º harmônicos.
+A sonoridade do instrumento, sintetizada pela linguagem Csound, tenta imitar os harmônicos produzidos por uma ocarina. Utilizando a geração de ruído e síntese subtrativa do Csound, o programa produz ruído e o filtra (pass-filter) na frequência base da tecla pressionada e nos 2º, 3º, 5º e 7º harmônicos, além de gerar ondas senoidais nas mesmas frequências, para dar mais preenchimento ao som.
+
+Para que o som gerado soe menos robótico e mecânico, as frequências das ondas senoidais sofrem uma modulação de frequência, dando uma sensação levemente mais natural ao som.
