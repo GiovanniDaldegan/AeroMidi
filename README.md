@@ -1,5 +1,5 @@
 # AeroMidi
-Repositório do instrumento AeroMidi, confeccionado para as matérias "Laboratório de Tecnologia Musical" e "Tópicos de Aplicação de Tecnologia à Composição Musical".
+Repositório do instrumento AeroMidi, confeccionado para as matérias "Laboratório de Tecnologia Musical" e "Tópicos de Aplicação de Tecnologia à Composição Musical" no semestre 2024/2 da UnB.
 
 Desenvolvido por:
 - Amanda Andrade Oliveira Ramos
